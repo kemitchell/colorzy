@@ -4,7 +4,12 @@ colorzy is a simple tools that adds formatting methods to objects. Most useful w
 
 ## Installation
 
-[ Will be on npm soon ]
+Available on [npmjs](https://www.npmjs.org/package/colorzy).
+Install with `npm`:
+
+```shell
+npm install colorzy
+```
 
 ## Formatting
 
