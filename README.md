@@ -10,34 +10,34 @@ colorzy is a simple tools that adds formatting methods to objects. Most useful w
 
 ### General
 
-    - Bold
-    - Italic (does not work everywhere)
-    - Underline
-    - Inverse
+- Bold
+- Italic (does not work everywhere)
+- Underline
+- Inverse
 
 ### Foreground
 
-    - Black
-    - Blue
-    - Cyan
-    - Green
-    - Grey
-    - Magenta
-    - Red
-    - White
-    - Yellow
+- Black
+- Blue
+- Cyan
+- Green
+- Grey
+- Magenta
+- Red
+- White
+- Yellow
 
 ### Background
 
-    - Black
-    - Blue
-    - Cyan
-    - Green
-    - Grey
-    - Magenta
-    - Red
-    - White
-    - Yellow
+- Black
+- Blue
+- Cyan
+- Green
+- Grey
+- Magenta
+- Red
+- White
+- Yellow
 
 ## Example usage
 
