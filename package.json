@@ -1,6 +1,6 @@
 {
     "name": "colorzy",
-    "version": "0.0.1",
+    "version": "1.0",
     "author": "Daniel K. <danielk@foocode.de>",
     "description": "Injects formatting methods into objects",
     "scripts": {
