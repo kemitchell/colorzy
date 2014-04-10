@@ -1,0 +1,19 @@
+{
+    "name": "colorzy",
+    "version": "0.0.1",
+    "author": "Daniel K. <danielk@foocode.de>",
+    "description": "Injects formatting methods into objects",
+    "scripts": {
+        "start": "./run.sh ./algos.js"
+    },
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [ "format", "color", "console"],
+    "license": "Apache v2.0",
+    "engines": {
+        "node": ">=0.10.21"
+    }
+}

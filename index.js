@@ -15,6 +15,7 @@
  *
  */
 
+/* Formatting options */
 var catalog = {
     'bold':      {'pre': 1, 'post': 22 },
     'italic':    {'pre': 3, 'post': 23},
@@ -37,6 +38,40 @@ var constants = {
     'on':  '\u001b[%sm',
     'off': '\u001b[%sm',
     'pattern': '%s'
-}
+};
 
 
+/* Expose function */
+
+/**
+ * Applies colors/formatting to the given object.
+ *
+ * Very useful for `String` and logging:
+ *
+ *  var colorzy = require("colorzy");
+ *
+ *  colorzy.colorize( String.prototype );
+ *  console.log("Error".red().underline(), "Something went wrong".yellow());
+ *
+ * @param {object}  what        Object to extend
+ * @param {boolean} force       Force extending. Override existing properties.
+ */
+exports = module.exports.colorize = function(what,force) {
+    if (!what) return;
+
+    for (var key in catalog)
+        // Check for existence or if we are allowed to override
+        if (!what.hasOwnProperty(key) || force) {
+            // Avoid closure problems
+            (function (k, a, b) {
+                // Apply property
+                what[k] = function () {
+                    return constants.on.replace(/%s/g, a) +
+                        this +
+                        constants.off.replace(/%s/g, b);
+                };
+
+            })(key, catalog[key].pre, catalog[key].post);
+
+        }
+};
