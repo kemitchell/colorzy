@@ -76,7 +76,7 @@ exports = module.exports.colorize = function(what,force) {
                 // Apply property
                 what[k] = function () {
                     return constants.on.replace(/%s/g, a) +
-                        this +
+                        this.toString() +
                         constants.off.replace(/%s/g, b);
                 };
 
