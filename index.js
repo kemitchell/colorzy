@@ -84,3 +84,13 @@ exports = module.exports.colorize = function(what,force) {
 
         }
 };
+
+exports = module.exports.elephant = function() {
+    for( var key in catalog ) {
+        console.log(
+                constants.on.replace(/%s/g, catalog[key].pre) +
+                key.toString() +
+                constants.off.replace(/%s/g, catalog[key].post)
+        );
+    }
+};
