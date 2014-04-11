@@ -32,15 +32,15 @@ var catalog = {
     'white':     {'pre':37, 'post':39},
     'yellow':    {'pre':33, 'post':39},
 
-    'blackBackground':     {'pre':40, 'post':39},
-    'blueBackground':      {'pre':44, 'post':39},
-    'cyanBackground':      {'pre':46, 'post':39},
-    'greenBackground':     {'pre':42, 'post':39},
-    'greyBackground':      {'pre':40, 'post':39},
-    'magentaBackground':   {'pre':45, 'post':39},
-    'redBackground':       {'pre':41, 'post':39},
-    'whiteBackground':     {'pre':47, 'post':39},
-    'yellowBackground':    {'pre':43, 'post':39}
+    'blackBackground':     {'pre':40, 'post':49},
+    'blueBackground':      {'pre':44, 'post':49},
+    'cyanBackground':      {'pre':46, 'post':49},
+    'greenBackground':     {'pre':42, 'post':49},
+    'greyBackground':      {'pre':40, 'post':49},
+    'magentaBackground':   {'pre':45, 'post':49},
+    'redBackground':       {'pre':41, 'post':49},
+    'whiteBackground':     {'pre':47, 'post':49},
+    'yellowBackground':    {'pre':43, 'post':49}
 };
 
 // Some configuration constants
