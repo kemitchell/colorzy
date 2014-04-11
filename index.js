@@ -46,8 +46,7 @@ var catalog = {
 // Some configuration constants
 var constants = {
     'on':  '\u001b[%sm',
-    'off': '\u001b[%sm',
-    'pattern': '%s'
+    'off': '\u001b[%sm'
 };
 
 
