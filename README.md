@@ -65,7 +65,7 @@ To print all formatting options to the console, use `colorzy.elephant()`.
 The following example demonstrates the usage of the tool:
 
 ```javascript
-var colorzy = require("./index");
+var colorzy = require("colorzy");
 var util = require("util");
 
 colorzy.colorize(String.prototype,true);
