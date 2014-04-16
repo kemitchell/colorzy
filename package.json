@@ -1,6 +1,6 @@
 {
     "name": "colorzy",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "Daniel K. <danielk@foocode.de>",
     "description": "Injects formatting methods into objects",
     "main": "./index.js",
